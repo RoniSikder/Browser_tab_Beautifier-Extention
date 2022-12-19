@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+}
+.container {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+#clock {
+    font-family: 'Quantum', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 200px;
+}
+
+#data {
+    font-family: 'Quantum', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    /* background-color: black; */
+    color: white;
+}
+
+.digit {
+    width: 18%;
+    padding: 10px;
+    color: white;
+}
+
+.colon {
+    color: white;
+    margin: 0px 20px;
+}
