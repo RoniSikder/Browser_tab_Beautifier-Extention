@@ -6,40 +6,40 @@ let cont5 = document.getElementById("year")
 
 function montha(mon) {
     switch (mon) {
-        case 1:
+        case 0:
             return ("JANUARY")
             break;
-        case 2:
+        case 1:
             return ("FEBRUARY")
             break;
-        case 3:
+        case 2:
             return ("MARCH")
             break;
-        case 4:
+        case 3:
             return ("APRIL")
             break;
-        case 5:
+        case 4:
             return ("MAY")
             break;
-        case 6:
+        case 5:
             return ("JUNE")
             break;
-        case 7:
+        case 6:
             return ("JULY")
             break;
-        case 8:
+        case 7:
             return ("AUGUEST")
             break;
-        case 9:
+        case 8:
             return ("SEPTEMBER")
             break;
-        case 10:
+        case 9:
             return ("OCTOBER")
             break;
-        case 11:
+        case 10:
             return ("NOVEMBER")
             break;
-        case 12:
+        case 11:
             return ("DECEMBER")
             break;
     }
